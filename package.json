@@ -1,0 +1,30 @@
+{
+  "name": "bubble",
+  "version": "1.1.6",
+  "description": "A Telegram bot that you can use as a account",
+  "main": "app.js",
+  "author": "Ayaka Neko",
+  "license": "MIT",
+  "dependencies": {
+    "const": "^1.0.0",
+    "http-proxy-agent": "^2.0.0",
+    "https-proxy-agent": "^2.1.1",
+    "jsonfile": "^4.0.0",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "log4js": "^2.4.1",
+    "node-fetch": "^1.7.3",
+    "telegraf": "^3.17.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekomeowww/Ningmeng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nekomeowww/Ningmeng/issues"
+  },
+  "homepage": "https://github.com/nekomeowww/Ningmeng#readme"
+}

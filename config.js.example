@@ -1,0 +1,19 @@
+var config = {
+    mode: "webhook", // webhook or polling
+    token : "API Key",
+    nickname : "Nickname",
+    username : "Bot username",
+    ownerId: Your User ID,
+    webhook : {
+        url: "Webhook url",
+        path: "/",
+        truePort: 8500,
+        port: 8500
+    },
+    proxy: {
+        enable: false,
+        url: "http://127.0.0.1:1087"
+    }
+}
+
+module.exports = config;
